@@ -1,0 +1,16 @@
+[
+    {
+        "id": "malaclyde00ig",
+        "platform": "instagram",
+        "name": "malaclyde00ig",
+        "registeredEmail": "support@malaclyde.com",
+        "advertisedProducts": [
+            {
+                "id": "product-id-1"
+            },
+            {
+                "id": "product-id-2"
+            }
+        ]
+    }
+]
