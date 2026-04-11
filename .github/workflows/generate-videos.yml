@@ -13,7 +13,7 @@ jobs:
       # GitHub actions automatically passes GITHUB_TOKEN for organization level access if it's GitHub packages
       credentials:
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ secrets.PACKAGES_TOKEN }}
         
     steps:
       - name: Checkout Repository
