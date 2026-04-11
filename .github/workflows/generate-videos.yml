@@ -8,8 +8,12 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    defaults:
+      run: 
+        shell: bash
     container:
       image: ghcr.io/malaclyde/psychedelic-video:latest
+      options: --user 0
       # GitHub actions automatically passes GITHUB_TOKEN for organization level access if it's GitHub packages
       credentials:
         username: ${{ github.actor }}
