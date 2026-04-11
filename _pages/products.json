@@ -1,20 +1,18 @@
 [
     {
-        "id": "product-id-1",
-        "url": "affiliate-url-1",
-        "affiliateMaterials": "affiliate-materials-url-1",
-        "description": "exemplary description 1",
-        "name": "product-1-name",
-        "origin": "affiliate-partner (e.g. digistore)",
-        "thumbnail": "url"
-    },
-    {
-        "id": "product-id-2",
-        "url": "affiliate-url-2",
-        "affiliateMaterials": "affiliate-materials-url-2",
-        "description": "exemplary description 2",
-        "name": "product-2-name",
-        "origin": "affiliate-partner (e.g. digistore)",
-        "thumbnail": "url"
+        "id": "4greatsleep",
+        "url": "https://4vitahealth.com/sp/4greatsleep-dg/#aff=supportdead&cam=",
+        "affiliateMaterials": "",
+        "description": "Reclaim Peaceful Sleep with 4GREATSLEEP and its Nocturnal Worry Release System (NWRS) — Rooted in Science, Trusted by Thousands for Restful Nights.",
+        "name": "4greatsleep",
+        "origin": "digistore",
+        "thumbnail": "https://4vitahealth.com/wp-content/uploads/2025/01/1bottle-4greathealth.png",
+        "animations": [
+            "fluid"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "nicole"
+        ]
     }
 ]

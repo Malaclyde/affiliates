@@ -1,0 +1,55 @@
+name: Generate Videos
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/malaclyde/psychedelic-video:latest
+      # GitHub actions automatically passes GITHUB_TOKEN for organization level access if it's GitHub packages
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+        
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Cache models and Kokoro tmp
+        uses: actions/cache@v4
+        id: cache-models
+        with:
+          path: |
+            /opt/models
+            /opt/.tmp-kokoro
+          # The key changes each run so new cache is saved, but it restores from the latest previous run
+          key: generated-video-cache-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            generated-video-cache-${{ runner.os }}-
+
+      - name: Setup opencode auth
+        run: |
+          mkdir -p /home/appuser/.local/share/opencode
+          cat <<EOF > /home/appuser/.local/share/opencode/auth.json
+          {
+            "zai-coding-plan": {
+              "type": "api",
+              "key": "${{ secrets.ZAI_TOKEN }}"
+            }
+          }
+          EOF
+
+      - name: Generate Videos with opencode
+        run: |
+          python .github/scripts/generate_videos.py
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-videos
+          path: generate_artifacts/
+          retention-days: 14
