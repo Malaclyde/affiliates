@@ -22,12 +22,14 @@ jobs:
         
     steps:
       - name: Manual Checkout into /opt
+        working-directory: /opt  
         run: |
           git clone --branch ${{ github.ref_name }} "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" clone_dir
           cp -a clone_dir/. .
           rm -rf clone_dir
 
       - name: Cache models and Kokoro tmp
+        working-directory: /opt
         uses: actions/cache@v4
         id: cache-models
         with:
@@ -40,6 +42,7 @@ jobs:
             generated-video-cache-${{ runner.os }}-
 
       - name: Setup opencode auth
+        working-directory: /opt
         run: |
           mkdir -p /home/appuser/.local/share/opencode
           cat <<EOF > /home/appuser/.local/share/opencode/auth.json
@@ -52,6 +55,7 @@ jobs:
           EOF
 
       - name: Generate Videos with opencode
+        working-directory: /opt
         run: |
           python .github/scripts/generate_videos.py
 
