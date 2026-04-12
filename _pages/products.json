@@ -3,7 +3,7 @@
         "id": "4greatsleep",
         "url": "https://4vitahealth.com/sp/4greatsleep-dg/#aff=supportdead&cam=",
         "affiliateMaterials": "",
-        "description": "Reclaim Peaceful Sleep with 4GREATSLEEP and its Nocturnal Worry Release System (NWRS) — Rooted in Science, Trusted by Thousands for Restful Nights.",
+        "description": "Reclaim Peaceful Sleep with 4GREATSLEEP and its Nocturnal Worry Release System (NWRS) \u2014 Rooted in Science, Trusted by Thousands for Restful Nights.",
         "name": "4greatsleep",
         "origin": "digistore",
         "thumbnail": "https://4vitahealth.com/wp-content/uploads/2025/01/1bottle-4greathealth.png",
@@ -12,7 +12,8 @@
         ],
         "voiceOverSummary": "",
         "voices": [
-            "nicole"
-        ]
+            "af_nicole"
+        ],
+        "summary": ""
     }
 ]

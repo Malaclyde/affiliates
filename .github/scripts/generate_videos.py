@@ -5,6 +5,8 @@ import yaml
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
+MAX_RETRIES = 3
+
 def main():
     # Use github workspace as the base dir
     workspace = Path(os.environ.get("GITHUB_WORKSPACE", "."))
@@ -52,12 +54,16 @@ def main():
             
             voice_info = voices.get(voice_id, {"description": "", "speed": ""})
             animation_info = animations.get(animation_id, {"description": ""})
+            output_filename = f"{product_name}_{build_number}_{voice_id}_{animation_id}.yaml"
             
             # 3.1 dict
             ctx = {
                 "product": product,
                 "animation": animation_info,
-                "voice": voice_info
+                "voice": voice_info,
+                "output": {
+                    "filename": output_filename
+                }
             }
             
             # 3.2 resolve template
@@ -65,31 +71,30 @@ def main():
             
             # 3.3 run opencode
             print(f"Running opencode for {product_name}...")
-            # Execute opencode directly with the resolved content as a single string argument inside quote
-            cmd = ["opencode", "--model", "zai-coding-plan/glm-4.7", "run", resolved_prompt]
-            result = subprocess.run(cmd, capture_output=True, text=True, env=os.environ.copy())
+
+            count = 0
+            while count < MAX_RETRIES:
+                # Execute opencode directly with the resolved content as a single string argument inside quote
+                cmd = ["opencode", "--model", "zai-coding-plan/glm-5.1", "run", resolved_prompt]
+                result = subprocess.run(cmd, capture_output=True, text=True, env=os.environ.copy())
+
+                print(result)
             
-            if result.returncode != 0:
-                print(f"opencode failed with error: {result.stderr}")
+                if result.stdout == "" and not os.path.isfile(output_filename):
+                    print(f"opencode failed with error: {result.stderr}; retrying")
+                    count += 1
+                    continue
+                
+                break
+
+            if not os.path.isfile(output_filename):
+                print(f"opencode failed to produce output file: {output_filename}")
                 print(f"::endgroup::")
                 continue
-                
-            # 3.4 output is a yaml file
-            raw_output = result.stdout
-            yaml_filename = f"{product_name}_{build_number}_{voice_id}_{animation_id}.yaml"
-            yaml_path = artifacts_dir / yaml_filename
-            with open(yaml_path, "w") as f:
-                f.write(raw_output)
-            
-            # Try to safely parse just the yaml part if the LLM output was chatty
-            clean_yaml = raw_output
-            if "```yaml" in clean_yaml:
-                clean_yaml = clean_yaml.split("```yaml")[1].split("```")[0].strip()
-            elif "```" in clean_yaml and "voice-over-bio" in clean_yaml:
-                clean_yaml = clean_yaml.split("```")[1].strip()
-                
+
             try:
-                parsed_yaml = yaml.safe_load(clean_yaml)
+                with open(output_filename, "r") as f:
+                    parsed_yaml = yaml.safe_load(f) 
                 if not isinstance(parsed_yaml, dict):
                     raise ValueError("Parsed YAML is not a dictionary.")
             except Exception as e:
@@ -100,6 +105,7 @@ def main():
             # 3.5 Extract fields to temp files
             vob = parsed_yaml.get('voice-over-bio', "")
             vod = parsed_yaml.get('voice-over-description', "")
+            product["summary"] = parsed_yaml.get('summary', "")
             
             vob_path = workspace / "voice-over-bio.txt"
             with open(vob_path, "w") as f:
@@ -108,6 +114,10 @@ def main():
             vod_path = workspace / "voice-over-description.txt"
             with open(vod_path, "w") as f:
                 f.write(vod)
+
+            # save the yaml file to the artifacts directory
+            with open(artifacts_dir / output_filename, "w") as f:
+                yaml.dump(parsed_yaml, f)
                 
             # Set the output artifact names
             vob_mp4_name = f"{product_name}_bio_{build_number}_{voice_id}_{animation_id}.mp4"
@@ -117,19 +127,22 @@ def main():
             out_vod = artifacts_dir / vod_mp4_name
             
             # Execute cli.py commands inside /opt as requested
-            cmd_bio = ["python", "src/cli.py", "--file", str(vob_path), "--subtitles", "--bg-volume", "20", "-output", str(out_vob), "-style", animation_id, "--voice", voice_id]
+            cmd_bio = ["python", "src/cli.py", "--file", str(vob_path), "--subtitles", "--bg-volume", "20", "--output", str(out_vob), "--style", animation_id, "--voice", voice_id]
             print(f"Running Bio CLI: {' '.join(cmd_bio)}")
             res_bio = subprocess.run(cmd_bio, cwd=opt_dir)
             if res_bio.returncode != 0:
                 print("Failed bio generation.")
             
-            cmd_desc = ["python", "src/cli.py", "--file", str(vod_path), "--subtitles", "--bg-volume", "20", "-output", str(out_vod), "-style", animation_id, "--voice", voice_id]
+            cmd_desc = ["python", "src/cli.py", "--file", str(vod_path), "--subtitles", "--bg-volume", "20", "--output", str(out_vod), "--style", animation_id, "--voice", voice_id]
             print(f"Running Desc CLI: {' '.join(cmd_desc)}")
             res_desc = subprocess.run(cmd_desc, cwd=opt_dir)
             if res_desc.returncode != 0:
                 print("Failed description generation.")
 
             print(f"::endgroup::")
+        
+        with open(pages_dir / "products.json", "w") as f:
+            json.dump(products, f, indent=4)
 
 if __name__ == "__main__":
     main()

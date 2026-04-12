@@ -1,8 +1,8 @@
 name: Generate Videos
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  #schedule:
+  #  - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,6 +11,7 @@ jobs:
     defaults:
       run: 
         shell: bash
+        working-directory: /opt
     container:
       image: ghcr.io/malaclyde/psychedelic-video:latest
       options: --user 0
@@ -50,6 +51,15 @@ jobs:
       - name: Generate Videos with opencode
         run: |
           python .github/scripts/generate_videos.py
+
+      - name: Commit updated summary
+        working-directory: ${{ github.workspace }}
+        run: |
+          git config --global --add safe.directory ${{ github.workspace }}
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add _pages/
+          git diff --staged --quiet || (git commit -m "updated summary" && git push)
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
