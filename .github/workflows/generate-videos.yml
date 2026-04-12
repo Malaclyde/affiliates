@@ -23,9 +23,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          path: /opt
-          clean: false
+
+      - name: Copy Repo to /opt
+        run: cp -a ${{ github.workspace }}/. /opt/
 
       - name: Cache models and Kokoro tmp
         uses: actions/cache@v4
