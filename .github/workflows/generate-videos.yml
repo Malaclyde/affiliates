@@ -21,11 +21,11 @@ jobs:
         password: ${{ secrets.PACKAGES_TOKEN }}
         
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Copy Repo to /opt
-        run: cp -a ${{ github.workspace }}/. /opt/
+      - name: Manual Checkout into /opt
+        run: |
+          git clone --branch ${{ github.ref_name }} "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" clone_dir
+          cp -a clone_dir/. .
+          rm -rf clone_dir
 
       - name: Cache models and Kokoro tmp
         uses: actions/cache@v4
