@@ -23,6 +23,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          path: /opt
+          clean: false
 
       - name: Cache models and Kokoro tmp
         uses: actions/cache@v4
@@ -53,9 +56,9 @@ jobs:
           python .github/scripts/generate_videos.py
 
       - name: Commit updated summary
-        working-directory: ${{ github.workspace }}
+        working-directory: /opt
         run: |
-          git config --global --add safe.directory ${{ github.workspace }}
+          git config --global --add safe.directory /opt
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add _pages/
