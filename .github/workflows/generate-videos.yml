@@ -29,7 +29,6 @@ jobs:
           rm -rf clone_dir
 
       - name: Cache models and Kokoro tmp
-        working-directory: /opt
         uses: actions/cache@v4
         id: cache-models
         with:
