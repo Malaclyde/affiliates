@@ -79,7 +79,9 @@ def main():
                 cmd = ["opencode", "--model", "zai-coding-plan/glm-5.1", "run", resolved_prompt]
                 result = subprocess.run(cmd, capture_output=True, text=True, env=os.environ.copy())
 
-                print(result)
+                print(result.stdout)
+                print(result.stderr)
+                print(result.returncode)
             
                 if result.stdout == "" and not os.path.isfile(output_filename):
                     print(f"opencode failed with error: {result.stderr}; retrying")
