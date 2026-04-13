@@ -43,7 +43,6 @@ jobs:
       - name: Setup opencode auth
         working-directory: /opt
         run: |
-          whoami
           mkdir -p ~/.local/share/opencode/
           echo '{
             "zai-coding-plan": {
@@ -51,14 +50,11 @@ jobs:
               "key": "${{ secrets.ZAI_TOKEN }}"
             }
           }' > ~/.local/share/opencode/auth.json
-          cat ~/.local/share/opencode/auth.json
           opencode models
 
       - name: Generate Videos with opencode
         working-directory: /opt
         run: |
-          cat ~/.local/share/opencode/auth.json
-          opencode models
           python .github/scripts/generate_videos.py
 
       - name: Commit updated summary
@@ -74,5 +70,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: generated-videos
-          path: generate_artifacts/
+          path: /opt/generate_artifacts/
           retention-days: 14
