@@ -14,7 +14,6 @@ jobs:
         working-directory: /opt
     container:
       image: ghcr.io/malaclyde/psychedelic-video:latest
-      options: --user 0
       # GitHub actions automatically passes GITHUB_TOKEN for organization level access if it's GitHub packages
       credentials:
         username: ${{ github.actor }}
@@ -44,14 +43,12 @@ jobs:
         working-directory: /opt
         run: |
           mkdir -p /home/appuser/.local/share/opencode
-          cat <<EOF > /home/appuser/.local/share/opencode/auth.json
-          {
+          echo '{
             "zai-coding-plan": {
               "type": "api",
               "key": "${{ secrets.ZAI_TOKEN }}"
             }
-          }
-          EOF
+          }' > /home/appuser/.local/share/opencode/auth.json
 
       - name: Generate Videos with opencode
         working-directory: /opt
