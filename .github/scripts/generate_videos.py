@@ -9,7 +9,8 @@ MAX_RETRIES = 3
 
 def main():
     # Use github workspace as the base dir
-    workspace = Path(os.environ.get("GITHUB_WORKSPACE", "."))
+    # workspace = Path(os.environ.get("GITHUB_WORKSPACE", "."))
+    workspace = Path("/opt")
     pages_dir = workspace / "_pages"
     
     # 1. Parse JSON files
