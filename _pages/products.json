@@ -185,5 +185,56 @@
             "af_nicole"
         ],
         "summary": "Semrush provides comprehensive SEO, PPC, content, social media, and competitive research tools. Used by 10M+ marketing professionals. Commission: $200 per sale, $10 per trial, $200 per subscription. Ideal audience: agencies, in-house marketers, SEO specialists."
+    },
+    {
+        "id": "canva",
+        "url": "https://www.canva.com/?via=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Canva is the world's leading online design platform. Create stunning presentations, social media graphics, videos, and more with thousands of templates and AI-powered design tools.",
+        "name": "Canva Pro",
+        "origin": "canva",
+        "thumbnail": "https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.png",
+        "animations": [
+            "pulse"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Canva Pro unlocks premium templates, AI-powered design tools (Magic Design, Magic Write, Magic Edit), background remover, and Brand Kit. Commission: 30% recurring for 12 months. Ideal audience: content creators, small businesses, social media managers."
+    },
+    {
+        "id": "hostinger",
+        "url": "https://www.hostinger.com/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Hostinger provides fast, reliable web hosting at affordable prices. From shared hosting to VPS and cloud plans, Hostinger powers millions of websites worldwide with 99.9% uptime.",
+        "name": "Hostinger",
+        "origin": "hostinger",
+        "thumbnail": "https://www.hostinger.com/images/og-image.png",
+        "animations": [
+            "float"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Hostinger offers affordable web hosting starting at $2.99/month, including free domain, SSL, and email. 60% affiliate commission on all plans. Ideal audience: bloggers, small business owners, web developers."
+    },
+    {
+        "id": "elevenlabs",
+        "url": "https://elevenlabs.io/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "ElevenLabs is the industry-leading AI voice synthesis platform. Generate realistic speech, clone voices, and create professional audio content in 29+ languages with unparalleled quality.",
+        "name": "ElevenLabs",
+        "origin": "elevenlabs",
+        "thumbnail": "https://elevenlabs.io/og-image.png",
+        "animations": [
+            "wave"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "ElevenLabs generates ultra-realistic AI voices for content creation, audiobooks, dubbing, and accessibility. 30% recurring commission. Ideal audience: content creators, YouTubers, developers, podcasters."
     }
 ]

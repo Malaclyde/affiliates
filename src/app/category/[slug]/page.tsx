@@ -26,6 +26,20 @@ const categories = [
     productIds: ['tubebuddy', 'pictory-ai'],
   },
   {
+    id: 'design-medien',
+    name: 'Design & Medien',
+    nameSingular: 'Design & Medien',
+    description: 'KI-basierte Design-Tools für professionelle Grafiken, Videos und Audio-Inhalte',
+    productIds: ['canva', 'elevenlabs'],
+  },
+  {
+    id: 'webhosting',
+    name: 'Webhosting & Domains',
+    nameSingular: 'Webhosting & Domains',
+    description: 'Zuverlässiges Webhosting und Domain-Registrierung für Ihr Online-Business',
+    productIds: ['hostinger'],
+  },
+  {
     id: 'schlaf-gesundheit',
     name: 'Schlaf & Gesundheit',
     nameSingular: 'Schlaf & Gesundheit',

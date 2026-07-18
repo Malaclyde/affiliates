@@ -30,6 +30,20 @@ const categories = [
     icon: '🎬',
   },
   {
+    id: 'design-medien',
+    name: 'Design & Medien',
+    description: 'KI-basierte Design-, Bild- und Audio-Tools für kreative Profis',
+    productCount: 2,
+    icon: '🎨',
+  },
+  {
+    id: 'webhosting',
+    name: 'Webhosting & Domains',
+    description: 'Schnelles und günstiges Webhosting für Ihr Online-Projekt',
+    productCount: 1,
+    icon: '🌐',
+  },
+  {
     id: 'schlaf-gesundheit',
     name: 'Schlaf & Gesundheit',
     description: 'Natürliche Produkte für besseren Schlaf und mehr Wohlbefinden',

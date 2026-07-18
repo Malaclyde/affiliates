@@ -8,7 +8,7 @@ export default function Home() {
   const blogPosts = getBlogPosts().slice(0, 3);
 
   // Featured products (pick a few high-commission ones)
-  const featuredProductIds = ['systeme-io', 'surfer-seo', 'tubebuddy', 'copy-ai'];
+  const featuredProductIds = ['systeme-io', 'surfer-seo', 'canva', 'hostinger', 'elevenlabs', 'tubebuddy'];
   const featuredProducts = featuredProductIds
     .map((id) => products.find((p) => p.id === id))
     .filter(Boolean);
@@ -18,6 +18,8 @@ export default function Home() {
     { id: 'ki-tools', name: 'KI-Schreibwerkzeuge', icon: '✍️' },
     { id: 'automatisierung', name: 'Automation & Marketing', icon: '⚡' },
     { id: 'youtube-video', name: 'YouTube & Video', icon: '🎬' },
+    { id: 'design-medien', name: 'Design & Medien', icon: '🎨' },
+    { id: 'webhosting', name: 'Webhosting & Domains', icon: '🌐' },
     { id: 'schlaf-gesundheit', name: 'Schlaf & Gesundheit', icon: '😴' },
   ];
 
