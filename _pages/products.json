@@ -3,7 +3,7 @@
         "id": "4greatsleep",
         "url": "https://4vitahealth.com/sp/4greatsleep-dg/#aff=supportdead&cam=",
         "affiliateMaterials": "",
-        "description": "Reclaim Peaceful Sleep with 4GREATSLEEP and its Nocturnal Worry Release System (NWRS) \u2014 Rooted in Science, Trusted by Thousands for Restful Nights.",
+        "description": "Reclaim Peaceful Sleep with 4GREATSLEEP and its Nocturnal Worry Release System (NWRS) — Rooted in Science, Trusted by Thousands for Restful Nights.",
         "name": "4greatsleep",
         "origin": "digistore",
         "thumbnail": "https://4vitahealth.com/wp-content/uploads/2025/01/1bottle-4greathealth.png",
@@ -15,5 +15,90 @@
             "af_nicole"
         ],
         "summary": "Hook references the calming lava-lamp-style color spots animation (drifting, merging, fading colors) as a metaphor for how thoughts should behave at night. Identifies the core problem of racing thoughts keeping people awake (tossing, turning, staring at ceiling while world sleeps). Positions 4GREATSLEEP as solution created specifically for this struggle. Introduces the Nocturnal Worry Release System (NWRS) as the key mechanism that gently quiets racing thoughts so the mind can rest. Uses authority signals: rooted in science, trusted by thousands. Emphasizes natural, peaceful sleep. Emotional triggers: frustration of sleepless nights, isolation (world sleeps while you're awake), repeated failure (night after night). Call to action: tap the link to reclaim rest tonight.\n"
+    },
+    {
+        "id": "notion-ai",
+        "url": "https://www.notion.so/product/ai?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Notion AI brings the power of AI directly into your workspace. Write, brainstorm, edit, and summarize — all without leaving Notion. Perfect for teams and solo professionals who live in Notion.",
+        "name": "Notion AI",
+        "origin": "notion",
+        "thumbnail": "https://www.notion.so/images/meta/default.png",
+        "animations": [
+            "pulse"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Notion AI integrates directly into the Notion workspace you already use. It can draft content, summarize meeting notes, translate text, and answer questions about your docs. Commission: 50% recurring for 12 months. Ideal audience: productivity enthusiasts, small teams, freelancers."
+    },
+    {
+        "id": "jasper-ai",
+        "url": "https://www.jasper.ai/?aff=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Jasper is the AI marketing platform that helps teams create on-brand content 10x faster. From blog posts to social media to ad copy — Jasper understands your brand voice.",
+        "name": "Jasper AI",
+        "origin": "jasper",
+        "thumbnail": "https://www.jasper.ai/images/og-image.png",
+        "animations": [
+            "float"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Jasper AI is a marketing-focused content generation platform. It learns your brand voice, generates blog posts, social media content, and ad copy. Commission: 30% recurring. Ideal audience: marketers, content creators, agencies."
+    },
+    {
+        "id": "writesonic",
+        "url": "https://writesonic.com/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Writesonic uses AI to generate high-quality written content in seconds — from blog articles and landing pages to product descriptions and Google ads.",
+        "name": "Writesonic",
+        "origin": "writesonic",
+        "thumbnail": "https://writesonic.com/images/og.png",
+        "animations": [
+            "wave"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Writesonic is an AI writing tool for creating blog posts, ads, landing pages, and product descriptions. Known for SEO-optimized content. Commission: 30% lifetime recurring. Ideal audience: bloggers, e-commerce, agencies."
+    },
+    {
+        "id": "copy-ai",
+        "url": "https://www.copy.ai/?via=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Copy.ai is an AI-powered GTM platform that automates prospecting, outreach, and content creation. Trusted by over 15 million users worldwide.",
+        "name": "Copy.ai",
+        "origin": "copyai",
+        "thumbnail": "https://www.copy.ai/images/og-image.png",
+        "animations": [
+            "fluid"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Copy.ai offers AI-powered sales and marketing automation. It generates copy, automates workflows, and helps with go-to-market strategies. Commission: 45% recurring for year one. Ideal audience: sales teams, marketers, startup founders."
+    },
+    {
+        "id": "pictory-ai",
+        "url": "https://pictory.ai/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Pictory turns long-form content into short, branded videos in minutes. No video editing skills needed — just paste your script or article and let AI do the rest.",
+        "name": "Pictory AI",
+        "origin": "pictory",
+        "thumbnail": "https://pictory.ai/images/og-image.png",
+        "animations": [
+            "pulse"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Pictory is an AI video creation platform that converts text to video. Ideal for repurposing blog posts into social media videos. Commission: 30% lifetime recurring. Ideal audience: content creators, YouTubers, social media managers."
     }
 ]

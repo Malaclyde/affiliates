@@ -21,15 +21,26 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={jetbrainsMono.className}>
+    <html lang="de" className={jetbrainsMono.className}>
       <body>
         {children}
-        <footer style={{ marginTop: '3rem', padding: '1.5rem 0', borderTop: '1px solid #333', fontSize: '0.85em', color: '#888' }}>
-          <nav style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/impressum" style={{ color: '#888' }}>Impressum</Link>
-            <Link href="/privacy" style={{ color: '#888' }}>Datenschutz / Privacy</Link>
-            <Link href="/ai-disclosure" style={{ color: '#888' }}>AI-Hinweis / AI Disclosure</Link>
+        <footer style={{
+          marginTop: '4rem',
+          padding: '2rem 0',
+          borderTop: '1px solid #333',
+          textAlign: 'center',
+          fontSize: '0.85rem',
+          color: '#888'
+        }}>
+          <nav style={{ marginBottom: '1rem' }}>
+            <Link href="/impressum" style={{ margin: '0 1rem', color: '#888' }}>Impressum</Link>
+            <Link href="/privacy" style={{ margin: '0 1rem', color: '#888' }}>Datenschutz</Link>
+            <Link href="/ai-disclosure" style={{ margin: '0 1rem', color: '#888' }}>KI-Hinweis</Link>
           </nav>
+          <p>&copy; {new Date().getFullYear()} Malaclyde Affiliates. Alle Rechte vorbehalten.</p>
+          <p style={{ fontSize: '0.75rem', marginTop: '0.5rem' }}>
+            Affiliate-Links: <code>rel=&quot;nofollow sponsored&quot;</code> | KI-generierte Inhalte gemäß EU AI Act Art. 50
+          </p>
         </footer>
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || "G-XXXXXXXXXX"} />
       </body>
