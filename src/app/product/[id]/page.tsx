@@ -26,7 +26,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
         This is the raw affiliate link. UTM parameters should NOT be attached to this,
         as explicitly described in the requirements. 
       */}
-            <a href={product.url} className="button" target="_blank" rel="noopener noreferrer">
+            <a href={product.url} className="button" target="_blank" rel="sponsored nofollow noopener noreferrer">
                 Get {product.name}
             </a>
         </main>
