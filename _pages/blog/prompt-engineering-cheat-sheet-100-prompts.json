@@ -1,0 +1,22 @@
+{
+  "slug": "prompt-engineering-cheat-sheet-100-prompts",
+  "title": "AI Prompt Engineering Cheat Sheet: 100+ Prompts That Actually Work in 2026",
+  "date": "2026-07-18",
+  "author": "Malaclyde",
+  "tags": [
+    "prompt-engineering",
+    "chatgpt",
+    "claude",
+    "AI",
+    "prompts",
+    "productivity"
+  ],
+  "excerpt": "Stop getting mediocre results from AI. This cheat sheet contains 100+ battle-tested prompts for ChatGPT, Claude, and Gemini, organized by business use case.",
+  "content": "<p>Most people use AI tools wrong. They type a vague prompt, get a vague response, and blame the tool. The truth is: AI output quality depends almost entirely on prompt quality.</p><p>After testing thousands of prompts across ChatGPT, Claude, and Gemini, I've compiled the 100+ that consistently produce excellent results.</p><h2>What Makes a Great Prompt?</h2><p>Before diving into the prompts, the framework: every great prompt includes (1) a clear role, (2) specific context, (3) format instructions, and (4) constraints. The cheat sheet explains this framework with examples.</p><h2>Marketing Prompts (25)</h2><p>Including: blog post outlines that actually rank, social media threads that drive engagement, email subject lines with proven open rates, landing page copy that converts at 5%+, and ad variations for A/B testing.</p><h2>Sales Prompts (20)</h2><p>Cold email templates that got 40%+ response rates in testing, follow-up sequences that recovered 15% of dead leads, objection handling scripts, and proposal generators.</p><h2>Content Creation (25)</h2><p>YouTube script frameworks (hook, body, CTA), podcast episode outlines that flow naturally, newsletter templates with 50%+ open rates, and e-book chapter structures.</p><h2>Data Analysis (15)</h2><p>Survey analysis prompts that find hidden insights, report generators, market research frameworks, and competitor analysis templates.</p><h2>Automation (15)</h2><p>Zapier/Make workflow descriptions, API integration prompts, data transformation rules, and error handling templates.</p><h2>Bonus: Prompt Optimization Framework</h2><p>The cheat sheet also includes a system for creating your own high-performing prompts: test, measure, iterate. You'll never accept mediocre AI outputs again.</p><p><a href='https://malaclyde.gumroad.com/l/prompt-engineering-cheatsheet' target='_blank' rel='sponsored nofollow'>Get the Cheat Sheet →</a></p>",
+  "description": "100+ battle-tested prompts for ChatGPT, Claude, and Gemini. Organized by marketing, sales, content creation, data analysis, and automation. Copy-paste ready.",
+  "relatedProducts": [
+    "prompt-engineering-cheat-sheet",
+    "jasper-ai",
+    "writesonic"
+  ]
+}

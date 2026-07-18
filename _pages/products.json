@@ -245,9 +245,13 @@
     "name": "KI-Agent Arbeitsvorlagen: 50+ Notion Templates",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["pulse"],
+    "animations": [
+      "pulse"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "Sparen Sie 10-20 Stunden pro Woche mit 50+ fertigen Notion-Vorlagen für KI-Workflows. Keine Programmierkenntnisse erforderlich."
   },
   {
@@ -258,9 +262,13 @@
     "name": "AI Automation for Beginners Guide",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["fluid"],
+    "animations": [
+      "fluid"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "Stop wasting hours on repetitive tasks. Set up your first AI workflow in 30 minutes. Includes tool comparison cheat sheet, step-by-step instructions, and real-world examples."
   },
   {
@@ -271,9 +279,13 @@
     "name": "KI für Kleinunternehmer: Der Praxisguide",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["wave"],
+    "animations": [
+      "wave"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "Wie Sie Künstliche Intelligenz nutzen, um Zeit zu sparen und Ihr Business wachsen zu lassen. Mit 20+ sofort einsetzbaren Prompt-Vorlagen."
   },
   {
@@ -284,9 +296,13 @@
     "name": "ChatGPT Power Prompts: 50 Templates",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["float"],
+    "animations": [
+      "float"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "50 tested prompt templates for content creation, business operations, marketing, productivity, and personal development. Plus 3 bonus system prompts."
   },
   {
@@ -297,9 +313,13 @@
     "name": "AI Image Generation Prompt Book",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["pulse"],
+    "animations": [
+      "pulse"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "Generate stunning AI images instantly. Covers business, social media, creative, website, seasonal prompts plus aspect ratios and style modifiers."
   },
   {
@@ -310,9 +330,13 @@
     "name": "KI für Social Media: Content-Planung",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["wave"],
+    "animations": [
+      "wave"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "3-Phasen-Workflow: Planung (5 Min), Erstellung (20 Min), Veröffentlichung (5 Min). Inklusive Prompt-Vorlagen für Instagram, LinkedIn, Facebook und X/Twitter."
   },
   {
@@ -323,9 +347,13 @@
     "name": "KI-Prompt-Engineering: Der Schnellstart",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["fluid"],
+    "animations": [
+      "fluid"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "Die 5 goldenen Prompt-Regeln, die Prompt-Matrix, 25 Praxis-Vorlagen und fortgeschrittene Techniken wie Chain-of-Thought und Few-Shot-Prompting."
   },
   {
@@ -336,9 +364,13 @@
     "name": "AI Prompt Engineering Cheat Sheet",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["float"],
+    "animations": [
+      "float"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "Copy-paste prompts for content creation, business operations, marketing, productivity, and personal development. Print-friendly format."
   },
   {
@@ -349,9 +381,13 @@
     "name": "AI Business Quick-Start Checklist",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["wave"],
+    "animations": [
+      "wave"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "A 4-week implementation plan. Week 1: Foundation. Week 2: Content. Week 3: Operations. Week 4: Scale. Check off each task as you go."
   },
   {
@@ -362,9 +398,13 @@
     "name": "AI Workflow Automation Templates Pack",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": ["pulse"],
+    "animations": [
+      "pulse"
+    ],
     "voiceOverSummary": "",
-    "voices": ["af_nicole"],
+    "voices": [
+      "af_nicole"
+    ],
     "summary": "Complete workflows for content pipelines, lead generation, customer success, operations, and analytics. Each template includes step-by-step setup instructions."
   }
 ]

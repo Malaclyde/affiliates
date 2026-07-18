@@ -1,0 +1,22 @@
+{
+  "slug": "automation-templates-pack-zapier-make-n8n",
+  "title": "AI Workflow Automation Templates Pack: 20 Ready-to-Use Zapier, Make & n8n Templates",
+  "date": "2026-07-18",
+  "author": "Malaclyde",
+  "tags": [
+    "automation",
+    "zapier",
+    "make",
+    "n8n",
+    "workflow",
+    "templates"
+  ],
+  "excerpt": "Stop building automations from scratch. This pack gives you 20 copy-paste templates for Zapier, Make, and n8n. Save 100+ hours of setup time.",
+  "content": "<p>Building automations is powerful but time-consuming. Every Zap, scenario, or workflow requires trial and error, testing, and debugging. What if you could skip all that?</p><p>This pack gives you 20 battle-tested automation templates that work out of the box. Copy the configuration, connect your accounts, and you're live in minutes.</p><h2>Content Automation (5 templates)</h2><p><strong>1. Blog-to-Social-Media Pipeline:</strong> Publish a blog post → AI generates social variants → auto-schedules across Twitter, LinkedIn, Facebook.</p><p><strong>2. RSS-to-Newsletter:</strong> New RSS item → AI summarizes → adds to email template → sends to subscribers.</p><p><strong>3. Video-to-Blog Post:</strong> Upload video → AI transcribes → reformats as blog → publishes draft.</p><p><strong>4. Podcast-to-Show Notes:</strong> New episode → AI generates summary, timestamps, key quotes → posts to website.</p><p><strong>5. Content Calendar Sync:</strong> Google Calendar event → creates Notion database entry → assigns tasks.</p><h2>Lead Generation (5 templates)</h2><p>Website form to CRM, social media lead capture, webinar registration flow, referral program tracker, and lead scoring automation. Each captures, qualifies, and routes leads automatically.</p><h2>Customer Success (5 templates)</h2><p>Onboarding sequence (7-day email series), support ticket routing by category, NPS feedback collection with follow-ups, churn prevention alerts, and upsell recommendations based on usage.</p><h2>Operations (5 templates)</h2><p>Auto invoice generation, meeting scheduler with confirmation, document generator (contracts/proposals), automated data backup, and weekly reporting dashboard.</p><p><strong>Compatible with:</strong> Zapier, Make (formerly Integromat), and n8n. Each template includes: step-by-step setup instructions, JSON configuration files, video walkthrough links, customization guide, and troubleshooting FAQ.</p><p><a href='https://malaclyde.gumroad.com/l/automation-templates-pack' target='_blank' rel='sponsored nofollow'>Get the Templates Pack →</a></p>",
+  "description": "20 ready-to-use automation templates for Zapier, Make, and n8n. Copy-paste configurations. Save 100+ hours. Content, leads, customer success, and operations.",
+  "relatedProducts": [
+    "automation-templates-pack",
+    "systeme-io",
+    "copy-ai"
+  ]
+}
