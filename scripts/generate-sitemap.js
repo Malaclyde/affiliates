@@ -23,6 +23,8 @@ function generateSitemap() {
     { path: 'category/ki-tools', priority: 0.7, changefreq: 'weekly' },
     { path: 'category/automatisierung', priority: 0.7, changefreq: 'weekly' },
     { path: 'category/youtube-video', priority: 0.7, changefreq: 'weekly' },
+    { path: 'category/design-medien', priority: 0.7, changefreq: 'weekly' },
+    { path: 'category/webhosting', priority: 0.7, changefreq: 'weekly' },
     { path: 'category/schlaf-gesundheit', priority: 0.7, changefreq: 'weekly' },
     { path: 'impressum', priority: 0.3, changefreq: 'monthly' },
     { path: 'privacy', priority: 0.3, changefreq: 'monthly' },
