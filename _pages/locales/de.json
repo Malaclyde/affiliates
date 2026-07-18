@@ -1,0 +1,78 @@
+{
+  "site": {
+    "title": "Malaclyde Affiliates",
+    "description": "Sorgfältig getestete KI-Tools, Automatisierungslösungen und Produktivitätsressourcen. Alle Empfehlungen basieren auf eigener Erfahrung."
+  },
+  "home": {
+    "heroTitle": "KI-Tools & Ressourcen für Ihr Business",
+    "heroSubtitle": "Sorgfältig getestete KI-Werkzeuge, die Ihnen Zeit sparen, Ihre Produktivität steigern und Ihr Business automatisieren. Alle Empfehlungen basieren auf eigener Erfahrung.",
+    "heroCta": "Tools entdecken →",
+    "heroBlog": "Blog lesen",
+    "featuredTitle": "Empfohlene Tools",
+    "featuredAll": "Alle anzeigen →",
+    "categoriesTitle": "Nach Kategorie durchsuchen",
+    "newsletterTitle": "📥 Kostenloses KI-Workflow-Startpaket",
+    "newsletterSubtitle": "50 konkrete Action Items für deine erste Woche mit KI — plus wöchentliche Tools, Automatisierungstipps und exklusive Angebote direkt ins Postfach. Kein Spam, jederzeit abbestellbar.",
+    "newsletterCta": "📥 Kostenloses Startpaket anfordern →",
+    "newsletterPrivacy": "Mit deiner Anmeldung akzeptierst du unsere",
+    "privacyLink": "Datenschutzerklärung",
+    "latestPosts": "Neueste Blog-Beiträge",
+    "latestAll": "Alle anzeigen →",
+    "productCta": "Jetzt testen →",
+    "readMore": "Weiterlesen →",
+    "noPosts": "Noch keine Blog-Beiträge verfügbar."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Tipps, Anleitungen und Einblicke zu KI-Tools, Automatisierung und Produktivität für Ihr Business.",
+    "readMore": "Weiterlesen →",
+    "backToBlog": "← Zurück zum Blog",
+    "recommendedProducts": "Empfohlene Produkte",
+    "recommendedDescription": "Basierend auf diesem Artikel könnten diese Produkte für Sie interessant sein:",
+    "checkPrice": "Zum Angebot",
+    "affiliateDisclaimer": "Dieser Beitrag enthält Affiliate-Links. Wir erhalten möglicherweise eine Provision, wenn Sie über diese Links einkaufen, ohne dass Ihnen zusätzliche Kosten entstehen.",
+    "noPosts": "Blog-Beiträge kommen bald!"
+  },
+  "category": {
+    "title": "Alle Kategorien",
+    "description": "Finden Sie das perfekte Tool für Ihre Bedürfnisse. Alle Produkte wurden persönlich getestet und empfohlen.",
+    "backToCategories": "← Alle Kategorien",
+    "noProducts": "In dieser Kategorie sind noch keine Produkte verfügbar.",
+    "productsCount": "Produkte anzeigen →",
+    "productCta": "Zum Angebot →",
+    "categoryNames": {
+      "ki-tools": "KI-Schreibwerkzeuge",
+      "automatisierung": "Automation & Marketing",
+      "youtube-video": "YouTube & Video",
+      "design-medien": "Design & Medien",
+      "webhosting": "Webhosting & Domains",
+      "schlaf-gesundheit": "Schlaf & Gesundheit"
+    },
+    "categoryDescriptions": {
+      "ki-tools": "Die besten KI-Tools für Content-Erstellung, Marketing und Verkaufsautomatisierung",
+      "automatisierung": "Tools für E-Mail-Automatisierung, Sales Funnels und Workflows",
+      "youtube-video": "Optimieren Sie Ihren YouTube-Kanal und erstellen Sie Videos mit KI",
+      "design-medien": "KI-basierte Design-, Bild- und Audio-Tools für kreative Profis",
+      "webhosting": "Schnelles und günstiges Webhosting für Ihr Online-Projekt",
+      "schlaf-gesundheit": "Natürliche Produkte für besseren Schlaf und mehr Wohlbefinden"
+    }
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "kiHinweis": "KI-Hinweis",
+    "privacyPolicy": "Datenschutzerklärung",
+    "disclosure": "KI-Offenlegung"
+  },
+  "footer": {
+    "copyright": "© {year} Malaclyde. Alle Inhalte können KI-generiert sein.",
+    "affiliateDisclaimer": "Affiliate-Links: Dieser Websitebetreiber erhält Provisionen für Käufe über Links auf dieser Seite.",
+    "languageSwitch": "English"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Diese Seite konnte nicht gefunden werden.",
+    "backToHome": "Zur Startseite"
+  }
+}

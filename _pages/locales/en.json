@@ -1,0 +1,78 @@
+{
+  "site": {
+    "title": "Malaclyde Affiliates",
+    "description": "Carefully tested AI tools, automation solutions, and productivity resources. All recommendations are based on hands-on experience."
+  },
+  "home": {
+    "heroTitle": "AI Tools & Resources for Your Business",
+    "heroSubtitle": "Carefully tested AI tools that save you time, boost productivity, and automate your business. All recommendations are based on hands-on experience.",
+    "heroCta": "Discover Tools →",
+    "heroBlog": "Read Blog",
+    "featuredTitle": "Featured Tools",
+    "featuredAll": "View All →",
+    "categoriesTitle": "Browse by Category",
+    "newsletterTitle": "📥 Free AI Workflow Starter Pack",
+    "newsletterSubtitle": "50 concrete action items for your first week with AI — plus weekly tools, automation tips, and exclusive offers delivered to your inbox. No spam, unsubscribe anytime.",
+    "newsletterCta": "📥 Get Free Starter Pack →",
+    "newsletterPrivacy": "By subscribing you accept our",
+    "privacyLink": "Privacy Policy",
+    "latestPosts": "Latest Blog Posts",
+    "latestAll": "View All →",
+    "productCta": "Try Now →",
+    "readMore": "Read more →",
+    "noPosts": "No blog posts available yet."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Tips, guides, and insights on AI tools, automation, and productivity for your business.",
+    "readMore": "Read more →",
+    "backToBlog": "← Back to Blog",
+    "recommendedProducts": "Recommended Products",
+    "recommendedDescription": "Based on this article, you might find these helpful:",
+    "checkPrice": "Check Price",
+    "affiliateDisclaimer": "This post contains affiliate links. We may earn a commission if you purchase through these links, at no extra cost to you.",
+    "noPosts": "Blog posts coming soon!"
+  },
+  "category": {
+    "title": "All Categories",
+    "description": "Find the perfect tool for your needs. All products have been personally tested and recommended.",
+    "backToCategories": "← All Categories",
+    "noProducts": "No products available in this category yet.",
+    "productsCount": "View Products →",
+    "productCta": "View Deal →",
+    "categoryNames": {
+      "ki-tools": "AI Writing Tools",
+      "automatisierung": "Automation & Marketing",
+      "youtube-video": "YouTube & Video",
+      "design-medien": "Design & Media",
+      "webhosting": "Web Hosting & Domains",
+      "schlaf-gesundheit": "Sleep & Health"
+    },
+    "categoryDescriptions": {
+      "ki-tools": "The best AI tools for content creation, marketing, and sales automation",
+      "automatisierung": "Tools for email automation, sales funnels, and workflows",
+      "youtube-video": "Optimize your YouTube channel and create videos with AI",
+      "design-medien": "AI-powered design tools for stunning graphics, video, and audio",
+      "webhosting": "Fast and affordable web hosting for your online project",
+      "schlaf-gesundheit": "Natural products for better sleep and improved well-being"
+    }
+  },
+  "legal": {
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy Policy",
+    "kiHinweis": "AI Disclosure",
+    "privacyPolicy": "Privacy Policy",
+    "disclosure": "AI Disclosure"
+  },
+  "footer": {
+    "copyright": "© {year} Malaclyde. Some content may be AI-generated.",
+    "affiliateDisclaimer": "Affiliate links: This site earns commissions on purchases made through links on this page.",
+    "languageSwitch": "Deutsch"
+  },
+  "common": {
+    "loading": "Loading...",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "This page could not be found.",
+    "backToHome": "Back to Home"
+  }
+}

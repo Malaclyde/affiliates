@@ -23,7 +23,6 @@ export default function RootLayout({
     <html lang="de" className={jetbrainsMono.className}>
       <body>
         {children}
-        <Footer />
       </body>
     </html>
   );

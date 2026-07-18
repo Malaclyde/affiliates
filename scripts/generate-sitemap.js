@@ -12,10 +12,13 @@ const pagesDir = path.join(__dirname, '..', '_pages');
 const blogDir = path.join(pagesDir, 'blog');
 const outDir = path.join(__dirname, '..', 'out');
 
+const LOCALES = ['de', 'en'];
+const DEFAULT_LOCALE = 'de';
+
 function generateSitemap() {
   const urls = [];
 
-  // Default priority/changefreq for different route patterns
+  // Static routes with locale prefixes
   const routes = [
     { path: '', priority: 1.0, changefreq: 'weekly' },
     { path: 'blog', priority: 0.8, changefreq: 'weekly' },
@@ -29,24 +32,59 @@ function generateSitemap() {
     { path: 'impressum', priority: 0.3, changefreq: 'monthly' },
     { path: 'privacy', priority: 0.3, changefreq: 'monthly' },
     { path: 'ai-disclosure', priority: 0.3, changefreq: 'monthly' },
+    { path: 'subscribe', priority: 0.5, changefreq: 'monthly' },
+    { path: 'subscribe/thank-you', priority: 0.3, changefreq: 'monthly' },
   ];
 
-  // Add static routes
-  for (const route of routes) {
-    urls.push({
-      loc: route.path ? `${SITE_URL}/${route.path}` : SITE_URL,
-      lastmod: '2026-07-18',
-      changefreq: route.changefreq,
-      priority: route.priority,
-    });
+  // Add locale-prefixed routes
+  for (const locale of LOCALES) {
+    for (const route of routes) {
+      const loc = route.path
+        ? `${SITE_URL}/${locale}/${route.path}`
+        : `${SITE_URL}/${locale}`;
+      urls.push({
+        loc,
+        lastmod: '2026-07-18',
+        changefreq: route.changefreq,
+        priority: route.priority,
+      });
+    }
   }
 
-  // Add blog posts
+  // Also add default (non-prefixed) root-level routes for backward compat
+  for (const route of routes) {
+    if (route.path) {
+      urls.push({
+        loc: `${SITE_URL}/${route.path}`,
+        lastmod: '2026-07-18',
+        changefreq: route.changefreq,
+        priority: route.priority,
+      });
+    } else {
+      urls.push({
+        loc: SITE_URL,
+        lastmod: '2026-07-18',
+        changefreq: route.changefreq,
+        priority: route.priority,
+      });
+    }
+  }
+
+  // Add blog posts with locale prefixes
   if (fs.existsSync(blogDir)) {
     const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.json'));
     for (const file of files) {
       try {
         const post = JSON.parse(fs.readFileSync(path.join(blogDir, file), 'utf8'));
+        for (const locale of LOCALES) {
+          urls.push({
+            loc: `${SITE_URL}/${locale}/blog/${post.slug}`,
+            lastmod: post.date || '2026-07-18',
+            changefreq: 'monthly',
+            priority: 0.6,
+          });
+        }
+        // Also keep the non-prefixed blog URL
         urls.push({
           loc: `${SITE_URL}/blog/${post.slug}`,
           lastmod: post.date || '2026-07-18',
