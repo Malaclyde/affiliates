@@ -241,17 +241,130 @@
     "id": "ki-agent-arbeitsvorlagen",
     "url": "https://malaclyde.gumroad.com/l/ki-agent-arbeitsvorlagen",
     "affiliateMaterials": "",
-    "description": "50+ fertige Notion-Vorlagen für KI-gestützte Arbeitsabläufe. Perfekt für Freelancer, Kleinunternehmer und Teams, die ihre Produktion mit KI-Tools steigern wollen.",
+    "description": "50+ fertige Notion-Vorlagen für KI-gestützte Arbeitsabläufe. Perfekt für Freelancer, Kleinunternehmer und Teams.",
     "name": "KI-Agent Arbeitsvorlagen: 50+ Notion Templates",
     "origin": "gumroad",
     "thumbnail": "",
-    "animations": [
-      "pulse"
-    ],
+    "animations": ["pulse"],
     "voiceOverSummary": "",
-    "voices": [
-      "af_nicole"
-    ],
-    "summary": "Sparen Sie 10-20 Stunden pro Woche mit 50+ fertigen Notion-Vorlagen für KI-Workflows. Ideal für Freelancer und Kleinunternehmer. Keine Programmierkenntnisse erforderlich."
+    "voices": ["af_nicole"],
+    "summary": "Sparen Sie 10-20 Stunden pro Woche mit 50+ fertigen Notion-Vorlagen für KI-Workflows. Keine Programmierkenntnisse erforderlich."
+  },
+  {
+    "id": "ai-automation-guide",
+    "url": "https://malaclyde.gumroad.com/l/dwswf",
+    "affiliateMaterials": "",
+    "description": "A practical 40-page guide showing small business owners how to set up AI automation workflows in 30 minutes. No technical background required.",
+    "name": "AI Automation for Beginners Guide",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["fluid"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "Stop wasting hours on repetitive tasks. Set up your first AI workflow in 30 minutes. Includes tool comparison cheat sheet, step-by-step instructions, and real-world examples."
+  },
+  {
+    "id": "ki-kleinunternehmer-praxisguide",
+    "url": "https://malaclyde.gumroad.com/l/ki-kleinunternehmer",
+    "affiliateMaterials": "",
+    "description": "Der erste deutschsprachige Praxisguide für KI im Kleinunternehmen. 8 Kapitel, 30-Tage-Fahrplan, kein technisches Vorwissen nötig.",
+    "name": "KI für Kleinunternehmer: Der Praxisguide",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["wave"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "Wie Sie Künstliche Intelligenz nutzen, um Zeit zu sparen und Ihr Business wachsen zu lassen. Mit 20+ sofort einsetzbaren Prompt-Vorlagen."
+  },
+  {
+    "id": "chatgpt-power-prompts",
+    "url": "https://malaclyde.gumroad.com/l/chatgpt-prompts",
+    "affiliateMaterials": "",
+    "description": "50 proven prompt templates across 5 categories. Copy, paste, customize — get better results from ChatGPT instantly.",
+    "name": "ChatGPT Power Prompts: 50 Templates",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["float"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "50 tested prompt templates for content creation, business operations, marketing, productivity, and personal development. Plus 3 bonus system prompts."
+  },
+  {
+    "id": "ai-image-prompt-book",
+    "url": "https://malaclyde.gumroad.com/l/ai-image-prompts",
+    "affiliateMaterials": "",
+    "description": "100+ professional image prompts for Midjourney, DALL-E 3, and Stable Diffusion across 7 categories. Includes technical reference.",
+    "name": "AI Image Generation Prompt Book",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["pulse"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "Generate stunning AI images instantly. Covers business, social media, creative, website, seasonal prompts plus aspect ratios and style modifiers."
+  },
+  {
+    "id": "ki-social-media-guide",
+    "url": "https://malaclyde.gumroad.com/l/ki-social-media",
+    "affiliateMaterials": "",
+    "description": "In 30 Minuten eine Woche Social-Media-Content mit KI erstellen. Der praktische Leitfaden für deutschsprachige Kleinunternehmer.",
+    "name": "KI für Social Media: Content-Planung",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["wave"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "3-Phasen-Workflow: Planung (5 Min), Erstellung (20 Min), Veröffentlichung (5 Min). Inklusive Prompt-Vorlagen für Instagram, LinkedIn, Facebook und X/Twitter."
+  },
+  {
+    "id": "ki-prompt-engineering",
+    "url": "https://malaclyde.gumroad.com/l/ki-prompt-engineering",
+    "affiliateMaterials": "",
+    "description": "Der deutschsprachige Schnellstart ins Prompt-Engineering. 50+ sofort einsetzbare Vorlagen für ChatGPT, Claude und andere KI-Tools.",
+    "name": "KI-Prompt-Engineering: Der Schnellstart",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["fluid"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "Die 5 goldenen Prompt-Regeln, die Prompt-Matrix, 25 Praxis-Vorlagen und fortgeschrittene Techniken wie Chain-of-Thought und Few-Shot-Prompting."
+  },
+  {
+    "id": "prompt-engineering-cheat-sheet",
+    "url": "https://malaclyde.gumroad.com/l/prompt-cheatsheet",
+    "affiliateMaterials": "",
+    "description": "100+ battle-tested AI prompts organized by use case. Stop guessing what to ask your AI tools.",
+    "name": "AI Prompt Engineering Cheat Sheet",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["float"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "Copy-paste prompts for content creation, business operations, marketing, productivity, and personal development. Print-friendly format."
+  },
+  {
+    "id": "ai-business-checklist",
+    "url": "https://malaclyde.gumroad.com/l/ai-checklist",
+    "affiliateMaterials": "",
+    "description": "50 actionable steps to integrate AI into your business in just 4 weeks. Checkbox format — track your progress.",
+    "name": "AI Business Quick-Start Checklist",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["wave"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "A 4-week implementation plan. Week 1: Foundation. Week 2: Content. Week 3: Operations. Week 4: Scale. Check off each task as you go."
+  },
+  {
+    "id": "automation-templates-pack",
+    "url": "https://malaclyde.gumroad.com/l/automation-templates",
+    "affiliateMaterials": "",
+    "description": "20 ready-to-use automation templates for Zapier, Make, and n8n. Save hours of setup time with battle-tested workflows.",
+    "name": "AI Workflow Automation Templates Pack",
+    "origin": "gumroad",
+    "thumbnail": "",
+    "animations": ["pulse"],
+    "voiceOverSummary": "",
+    "voices": ["af_nicole"],
+    "summary": "Complete workflows for content pipelines, lead generation, customer success, operations, and analytics. Each template includes step-by-step setup instructions."
   }
 ]
