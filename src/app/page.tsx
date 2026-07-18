@@ -196,7 +196,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Email Newsletter CTA */}
+      {/* Email Newsletter CTA — Linked to /subscribe */}
       <section
         style={{
           padding: '3rem 2rem',
@@ -208,53 +208,30 @@ export default function Home() {
         }}
       >
         <h2 style={{ fontSize: '1.8rem', margin: '0 0 0.75rem 0' }}>
-          Kostenloser KI-Workflow-Newsletter
+          📥 Kostenloses KI-Workflow-Startpaket
         </h2>
-        <p className="description" style={{ maxWidth: '500px', margin: '0 auto 1.5rem auto' }}>
-          Jede Woche die besten KI-Tools, Automatisierungstipps und exklusive Angebote — direkt in
-          Ihr Postfach. Kein Spam, jederzeit abbestellbar.
+        <p className="description" style={{ maxWidth: '550px', margin: '0 auto 1.5rem auto' }}>
+          50 konkrete Action Items für deine erste Woche mit KI — plus wöchentliche Tools,
+          Automatisierungstipps und exklusive Angebote direkt ins Postfach. Kein Spam,
+          jederzeit abbestellbar.
         </p>
-        <div
+        <Link
+          href="/subscribe"
           style={{
-            display: 'flex',
-            gap: '0.75rem',
-            justifyContent: 'center',
-            flexWrap: 'wrap',
-            maxWidth: '450px',
-            margin: '0 auto',
+            display: 'inline-block',
+            padding: '0.85rem 2rem',
+            background: 'var(--primary)',
+            color: '#fff',
+            borderRadius: '0.5rem',
+            fontWeight: 600,
+            fontSize: '1rem',
+            textDecoration: 'none',
           }}
         >
-          <input
-            type="email"
-            placeholder="Ihre E-Mail-Adresse"
-            style={{
-              flex: 1,
-              minWidth: '200px',
-              padding: '0.85rem 1rem',
-              borderRadius: '0.5rem',
-              border: '1px solid var(--glass-border)',
-              background: 'var(--glass-bg)',
-              color: 'var(--text)',
-              fontSize: '0.95rem',
-            }}
-          />
-          <button
-            style={{
-              padding: '0.85rem 1.5rem',
-              background: 'var(--primary)',
-              color: '#fff',
-              border: 'none',
-              borderRadius: '0.5rem',
-              fontWeight: 600,
-              fontSize: '0.95rem',
-              cursor: 'pointer',
-            }}
-          >
-            Anmelden
-          </button>
-        </div>
+          📥 Kostenloses Startpaket anfordern →
+        </Link>
         <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.75rem' }}>
-          Mit Ihrer Anmeldung akzeptieren Sie unsere{' '}
+          Mit deiner Anmeldung akzeptierst du unsere{' '}
           <Link href="/privacy" style={{ color: 'var(--text-muted)' }}>
             Datenschutzerklärung
           </Link>

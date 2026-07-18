@@ -151,67 +151,7 @@ export default function SubscribePage() {
           wöchentliche KI-Tipps und exklusive Angebote. Kein Spam, jederzeit abbestellbar.
         </p>
 
-        {/* ConvertKit Signup Form */}
-        <form
-          action="https://app.convertkit.com/forms/INSERT_FORM_ID/subscriptions"
-          method="post"
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '0.75rem',
-            maxWidth: '400px',
-            margin: '0 auto',
-          }}
-        >
-          <input
-            type="text"
-            name="fields[first_name]"
-            placeholder="Dein Vorname"
-            required
-            style={{
-              padding: '0.85rem 1rem',
-              borderRadius: '0.5rem',
-              border: '1px solid var(--glass-border)',
-              background: 'var(--glass-bg)',
-              color: 'var(--text)',
-              fontSize: '0.95rem',
-              width: '100%',
-              boxSizing: 'border-box',
-            }}
-          />
-          <input
-            type="email"
-            name="email_address"
-            placeholder="Deine E-Mail-Adresse"
-            required
-            style={{
-              padding: '0.85rem 1rem',
-              borderRadius: '0.5rem',
-              border: '1px solid var(--glass-border)',
-              background: 'var(--glass-bg)',
-              color: 'var(--text)',
-              fontSize: '0.95rem',
-              width: '100%',
-              boxSizing: 'border-box',
-            }}
-          />
-          <button
-            type="submit"
-            style={{
-              padding: '0.85rem 1.5rem',
-              background: 'var(--primary)',
-              color: '#fff',
-              border: 'none',
-              borderRadius: '0.5rem',
-              fontWeight: 600,
-              fontSize: '1rem',
-              cursor: 'pointer',
-              width: '100%',
-            }}
-          >
-            📥 Kostenloses Startpaket anfordern
-          </button>
-        </form>
+        {/* Newsletter Signup Form — powered by FormSubmit.co */}\n        <form\n          action="https://formsubmit.co/affiliates@malaclyde.com"\n          method="POST"\n          style={{\n            display: 'flex',\n            flexDirection: 'column',\n            gap: '0.75rem',\n            maxWidth: '400px',\n            margin: '0 auto',\n          }}\n        >\n          {/* Honeypot to prevent spam */}\n          <input type="text" name="_honey" style={{ display: 'none' }} />\n          {/* Disable captcha */}\n          <input type="hidden" name="_captcha" value="false" />\n          {/* Redirect after success */}\n          <input type="hidden" name="_next" value="https://affiliates.malaclyde.com/subscribe/thank-you" />\n          {/* Subject line for email notification */}\n          <input type="hidden" name="_subject" value="Neue Newsletter-Anmeldung von affiliates.malaclyde.com!" />\n          \n          <input\n            type="text"\n            name="name"\n            placeholder="Dein Vorname"\n            required\n            style={{\n              padding: '0.85rem 1rem',\n              borderRadius: '0.5rem',\n              border: '1px solid var(--glass-border)',\n              background: 'var(--glass-bg)',\n              color: 'var(--text)',\n              fontSize: '0.95rem',\n              width: '100%',\n              boxSizing: 'border-box',\n            }}\n          />\n          <input\n            type="email"\n            name="email"\n            placeholder="Deine E-Mail-Adresse"\n            required\n            style={{\n              padding: '0.85rem 1rem',\n              borderRadius: '0.5rem',\n              border: '1px solid var(--glass-border)',\n              background: 'var(--glass-bg)',\n              color: 'var(--text)',\n              fontSize: '0.95rem',\n              width: '100%',\n              boxSizing: 'border-box',\n            }}\n          />\n          <button\n            type="submit"\n            style={{\n              padding: '0.85rem 1.5rem',\n              background: 'var(--primary)',\n              color: '#fff',\n              border: 'none',\n              borderRadius: '0.5rem',\n              fontWeight: 600,\n              fontSize: '1rem',\n              cursor: 'pointer',\n              width: '100%',\n            }}\n          >\n            📥 Kostenloses Startpaket anfordern\n          </button>\n        </form>
 
         <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '1rem' }}>
           Mit deiner Anmeldung akzeptierst du unsere{' '}
