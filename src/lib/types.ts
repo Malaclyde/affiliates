@@ -25,3 +25,15 @@ export interface Account {
     registeredEmail: string;
     advertisedProducts: AccountProduct[];
 }
+
+export interface BlogPost {
+    slug: string;
+    title: string;
+    description: string;
+    date: string;
+    author: string;
+    tags: string[];
+    content: string;
+    relatedProducts: string[]; // Product IDs
+    image?: string;
+}

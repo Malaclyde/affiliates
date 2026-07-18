@@ -1,5 +1,6 @@
 import { getAboutMe, getProducts } from '@/lib/data';
 import ProductTile from '@/components/ProductTile';
+import Link from 'next/link';
 
 export default function Home() {
   const aboutMe = getAboutMe();
@@ -29,6 +30,14 @@ export default function Home() {
           <ProductTile key={product.id} product={product} />
         ))}
       </div>
+
+      <h2>Blog</h2>
+      <p className="description">
+        Tips, guides, and insights on sleep, health, and wellness.{' '}
+        <Link href="/blog" style={{ color: '#0066cc' }}>
+          Read the blog →
+        </Link>
+      </p>
     </main>
   );
 }
