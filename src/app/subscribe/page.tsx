@@ -10,7 +10,6 @@ export const metadata: Metadata = {
 export default function SubscribePage() {
   return (
     <main>
-      {/* Hero Section */}
       <section
         style={{
           textAlign: 'center',
@@ -49,7 +48,6 @@ export default function SubscribePage() {
         </p>
       </section>
 
-      {/* Value Props */}
       <section
         style={{
           display: 'grid',
@@ -83,7 +81,6 @@ export default function SubscribePage() {
         ))}
       </section>
 
-      {/* Lead Magnet Preview */}
       <section
         style={{
           padding: '2.5rem 2rem',
@@ -131,7 +128,6 @@ export default function SubscribePage() {
         </div>
       </section>
 
-      {/* Signup Form */}
       <section
         id="subscribe-form"
         style={{
@@ -163,13 +159,9 @@ export default function SubscribePage() {
             margin: '0 auto',
           }}
         >
-          {/* Honeypot to prevent spam */}
           <input type="text" name="_honey" style={{ display: 'none' }} />
-          {/* Disable captcha */}
           <input type="hidden" name="_captcha" value="false" />
-          {/* Redirect after success */}
           <input type="hidden" name="_next" value="https://affiliates.malaclyde.com/subscribe/thank-you" />
-          {/* Subject line for email notification */}
           <input type="hidden" name="_subject" value="Neue Newsletter-Anmeldung von affiliates.malaclyde.com!" />
 
           <input
@@ -218,7 +210,7 @@ export default function SubscribePage() {
               width: '100%',
             }}
           >
-            🚀 Kostenloses Startpaket anfordern
+            📥 Kostenloses Startpaket anfordern
           </button>
         </form>
 
@@ -231,7 +223,6 @@ export default function SubscribePage() {
         </p>
       </section>
 
-      {/* What You Get Next */}
       <section
         style={{
           padding: '2rem',
@@ -265,7 +256,6 @@ export default function SubscribePage() {
         </div>
       </section>
 
-      {/* Back to Home */}
       <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <Link
           href="/"
