@@ -100,5 +100,90 @@
             "af_nicole"
         ],
         "summary": "Pictory is an AI video creation platform that converts text to video. Ideal for repurposing blog posts into social media videos. Commission: 30% lifetime recurring. Ideal audience: content creators, YouTubers, social media managers."
+    },
+    {
+        "id": "surfer-seo",
+        "url": "https://surferseo.com/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Surfer SEO is the leading content intelligence platform that combines content strategy, creation, and optimization into one seamless workflow. Get data-driven recommendations to rank higher on Google.",
+        "name": "Surfer SEO",
+        "origin": "surferseo",
+        "thumbnail": "https://surferseo.com/images/og-image.png",
+        "animations": [
+            "wave"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Surfer SEO analyzes 500+ on-page ranking factors to give you data-driven content recommendations. Real-time content editor, SERP analyzer, and keyword research. Commission: 25% recurring monthly. Ideal audience: SEO professionals, content marketers, bloggers."
+    },
+    {
+        "id": "systeme-io",
+        "url": "https://systeme.io/?s=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Systeme.io is the all-in-one marketing platform that lets you build sales funnels, email marketing, online courses, and websites — all without coding.",
+        "name": "Systeme.io",
+        "origin": "systeme",
+        "thumbnail": "https://systeme.io/images/og-image.png",
+        "animations": [
+            "pulse"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Systeme.io replaces multiple marketing tools with one platform. Build funnels, automate emails, host courses, and manage affiliates. Free plan available. Commission: 40% recurring lifetime. Ideal audience: solopreneurs, small business owners, course creators."
+    },
+    {
+        "id": "tubebuddy",
+        "url": "https://www.tubebuddy.com/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "TubeBuddy is a browser extension and mobile app that integrates directly into YouTube to help you manage, optimize, and grow your channel.",
+        "name": "TubeBuddy",
+        "origin": "tubebuddy",
+        "thumbnail": "https://www.tubebuddy.com/images/og.png",
+        "animations": [
+            "float"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "TubeBuddy provides keyword research, SEO optimization, A/B testing, and bulk processing tools for YouTube creators. Built directly into the YouTube interface. Commission: 50% recurring for first 2 months, then 30%. Ideal audience: YouTubers, video creators, social media managers."
+    },
+    {
+        "id": "convertkit",
+        "url": "https://convertkit.com/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "ConvertKit is the email marketing platform built for creators. Grow your audience, automate your messaging, and earn a living doing what you love.",
+        "name": "ConvertKit",
+        "origin": "convertkit",
+        "thumbnail": "https://convertkit.com/images/og-image.png",
+        "animations": [
+            "fluid"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "ConvertKit helps creators build email lists with landing pages and forms, automate sequences, and sell digital products. Designed for bloggers, podcasters, and YouTubers. Commission: 30% recurring monthly. Ideal audience: content creators, bloggers, indie hackers."
+    },
+    {
+        "id": "semrush",
+        "url": "https://www.semrush.com/?ref=malaclyde",
+        "affiliateMaterials": "",
+        "description": "Semrush is the all-in-one marketing toolkit for digital marketing professionals. SEO, advertising, content, social media, and competitive research.",
+        "name": "Semrush",
+        "origin": "semrush",
+        "thumbnail": "https://www.semrush.com/images/og-image.png",
+        "animations": [
+            "wave"
+        ],
+        "voiceOverSummary": "",
+        "voices": [
+            "af_nicole"
+        ],
+        "summary": "Semrush provides comprehensive SEO, PPC, content, social media, and competitive research tools. Used by 10M+ marketing professionals. Commission: $200 per sale, $10 per trial, $200 per subscription. Ideal audience: agencies, in-house marketers, SEO specialists."
     }
 ]
