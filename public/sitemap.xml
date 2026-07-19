@@ -1297,20 +1297,35 @@
     <priority>0.6</priority>
   </url>
   <url>
+<<<<<<< HEAD
     <loc>https://affiliates.malaclyde.com/de/blog/systeme-io-vs-clickfunnels-vs-kajabi</loc>
     <lastmod>2026-07-18</lastmod>
+=======
+    <loc>https://affiliates.malaclyde.com/de/blog/systemeio-vs-clickfunnels-vs-kajabi-vergleich-2026</loc>
+    <lastmod>2026-07-19</lastmod>
+>>>>>>> 5d4a9e5 (feat(worker-01): add German Systeme.io vs ClickFunnels vs Kajabi comparison post)
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+<<<<<<< HEAD
     <loc>https://affiliates.malaclyde.com/en/blog/systeme-io-vs-clickfunnels-vs-kajabi</loc>
     <lastmod>2026-07-18</lastmod>
+=======
+    <loc>https://affiliates.malaclyde.com/en/blog/systemeio-vs-clickfunnels-vs-kajabi-vergleich-2026</loc>
+    <lastmod>2026-07-19</lastmod>
+>>>>>>> 5d4a9e5 (feat(worker-01): add German Systeme.io vs ClickFunnels vs Kajabi comparison post)
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+<<<<<<< HEAD
     <loc>https://affiliates.malaclyde.com/blog/systeme-io-vs-clickfunnels-vs-kajabi</loc>
     <lastmod>2026-07-18</lastmod>
+=======
+    <loc>https://affiliates.malaclyde.com/blog/systemeio-vs-clickfunnels-vs-kajabi-vergleich-2026</loc>
+    <lastmod>2026-07-19</lastmod>
+>>>>>>> 5d4a9e5 (feat(worker-01): add German Systeme.io vs ClickFunnels vs Kajabi comparison post)
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
