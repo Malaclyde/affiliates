@@ -9,14 +9,14 @@ const categories = [
     name: 'KI-Schreibwerkzeuge',
     nameSingular: 'KI-Schreibwerkzeug',
     description: 'Die besten KI-Tools für Content-Erstellung, Marketing und Verkaufsautomatisierung',
-    productIds: ['jasper-ai', 'writesonic', 'copy-ai', 'notion-ai', 'surfer-seo'],
+    productIds: ['jasper-ai', 'writesonic', 'copy-ai', 'notion-ai', 'surfer-seo', 'github-copilot'],
   },
   {
     id: 'automatisierung',
     name: 'Automation & Marketing',
     nameSingular: 'Automation & Marketing',
     description: 'Tools für E-Mail-Automatisierung, Sales Funnels und Workflows',
-    productIds: ['convertkit', 'systeme-io', 'semrush'],
+    productIds: ['convertkit', 'systeme-io', 'semrush', 'zapier'],
   },
   {
     id: 'youtube-video',
