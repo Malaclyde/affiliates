@@ -146,7 +146,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                     flex: 1,
                   }}
                 >
-                  {product.description.slice(0, 120)}...
+                  {product.description?.slice(0, 120)}...
                 </p>
                 <div
                   style={{

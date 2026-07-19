@@ -116,7 +116,7 @@ export default async function CategorySlugPage({ params }: Props) {
                 </div>
                 <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0, flex: 1 }}>
                   {product.description.length > 150
-                    ? product.description.slice(0, 150) + '...'
+                    ? product.description?.slice(0, 150) + '...'
                     : product.description}
                 </p>
                 <div

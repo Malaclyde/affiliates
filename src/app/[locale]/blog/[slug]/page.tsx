@@ -139,7 +139,7 @@ export default async function BlogPostPage({ params }: Props) {
                     <div style={{ flex: 1 }}>
                       <strong>{product.name}</strong>
                       <p style={{ margin: 0, fontSize: '0.85rem', color: '#666' }}>
-                        {product.description.slice(0, 100)}...
+                        {product.description?.slice(0, 100)}...
                       </p>
                     </div>
                     <a
