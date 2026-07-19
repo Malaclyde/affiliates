@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export default function SubscribePage() {
   return (
     <main>
+      {/* Hero Section */}
       <section
         style={{
           textAlign: 'center',
@@ -48,6 +49,7 @@ export default function SubscribePage() {
         </p>
       </section>
 
+      {/* Value Props */}
       <section
         style={{
           display: 'grid',
@@ -81,6 +83,7 @@ export default function SubscribePage() {
         ))}
       </section>
 
+      {/* Lead Magnet Preview */}
       <section
         style={{
           padding: '2.5rem 2rem',
@@ -128,6 +131,7 @@ export default function SubscribePage() {
         </div>
       </section>
 
+      {/* Signup Form */}
       <section
         id="subscribe-form"
         style={{
@@ -147,7 +151,6 @@ export default function SubscribePage() {
           wöchentliche KI-Tipps und exklusive Angebote. Kein Spam, jederzeit abbestellbar.
         </p>
 
-        {/* Newsletter Signup Form — powered by FormSubmit.co */}
         <form
           action="https://formsubmit.co/affiliates@malaclyde.com"
           method="POST"
@@ -162,53 +165,18 @@ export default function SubscribePage() {
           <input type="text" name="_honey" style={{ display: 'none' }} />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="https://affiliates.malaclyde.com/subscribe/thank-you" />
-          <input type="hidden" name="_subject" value="Neue Newsletter-Anmeldung von affiliates.malaclyde.com!" />
-
+          <input type="hidden" name="_subject" value="Neue Anmeldung affiliates.malaclyde.com!" />
           <input
-            type="text"
-            name="name"
-            placeholder="Dein Vorname"
-            required
-            style={{
-              padding: '0.85rem 1rem',
-              borderRadius: '0.5rem',
-              border: '1px solid var(--glass-border)',
-              background: 'var(--glass-bg)',
-              color: 'var(--text)',
-              fontSize: '0.95rem',
-              width: '100%',
-              boxSizing: 'border-box',
-            }}
+            type="text" name="name" placeholder="Dein Vorname" required
+            style={{ padding: '0.85rem 1rem', borderRadius: '0.5rem', border: '1px solid var(--glass-border)', background: 'var(--glass-bg)', color: 'var(--text)', fontSize: '0.95rem', width: '100%', boxSizing: 'border-box' }}
           />
           <input
-            type="email"
-            name="email"
-            placeholder="Deine E-Mail-Adresse"
-            required
-            style={{
-              padding: '0.85rem 1rem',
-              borderRadius: '0.5rem',
-              border: '1px solid var(--glass-border)',
-              background: 'var(--glass-bg)',
-              color: 'var(--text)',
-              fontSize: '0.95rem',
-              width: '100%',
-              boxSizing: 'border-box',
-            }}
+            type="email" name="email" placeholder="Deine E-Mail-Adresse" required
+            style={{ padding: '0.85rem 1rem', borderRadius: '0.5rem', border: '1px solid var(--glass-border)', background: 'var(--glass-bg)', color: 'var(--text)', fontSize: '0.95rem', width: '100%', boxSizing: 'border-box' }}
           />
           <button
             type="submit"
-            style={{
-              padding: '0.85rem 1.5rem',
-              background: 'var(--primary)',
-              color: '#fff',
-              border: 'none',
-              borderRadius: '0.5rem',
-              fontWeight: 600,
-              fontSize: '1rem',
-              cursor: 'pointer',
-              width: '100%',
-            }}
+            style={{ padding: '0.85rem 1.5rem', background: 'var(--primary)', color: '#fff', border: 'none', borderRadius: '0.5rem', fontWeight: 600, fontSize: '1rem', cursor: 'pointer', width: '100%' }}
           >
             📥 Kostenloses Startpaket anfordern
           </button>
@@ -223,6 +191,7 @@ export default function SubscribePage() {
         </p>
       </section>
 
+      {/* What You Get Next */}
       <section
         style={{
           padding: '2rem',
@@ -256,11 +225,9 @@ export default function SubscribePage() {
         </div>
       </section>
 
+      {/* Back to Home */}
       <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-        <Link
-          href="/"
-          style={{ color: 'var(--primary)', fontSize: '0.9rem' }}
-        >
+        <Link href="/" style={{ color: 'var(--primary)', fontSize: '0.9rem' }}>
           ← Zurück zur Startseite
         </Link>
       </div>
